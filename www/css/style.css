@@ -1,0 +1,205 @@
+/* Empty. Add your own CSS if you like */
+.bar-header {
+    background: #00B9E6;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.26);
+    border: none;
+}
+
+.bar-header .title {
+    color:white;
+}
+
+.button {
+    border-radius: 0;
+    border:none;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.26);
+    width:auto !important;
+    display:inline;
+    padding: 0px 25px;
+    float:right;
+}
+
+.button-material-blue {
+    background: #04B9E6;
+    color:white;
+}
+
+.item-floating-label .input-label.has-input {
+    color: #00B9E6;
+}
+
+.item.item-floating-label {
+    border-width:0px 0px 1px 0px !important;
+}
+
+ul .item {
+    padding: 3px 8px;
+    display: list-item;
+    width: auto;
+    margin: 8px;
+    border: none;
+    overflow: visible;
+    margin-bottom:30px;
+}
+
+ul .item div {
+    background: #EEEEEE;
+    width:auto;
+    display:inline-block;
+    padding: 8px 10px;
+}
+
+ul .item.user {
+    text-align: right;
+}
+
+ul .item.user div {
+    background: #00B9E6;
+    color:white;
+}
+
+li.item.user div:after {
+    content: '';
+    position: absolute;
+    right: 8px;
+    bottom: -26px;
+    height: 0px;
+    width: 0px;
+    border-left: 15px solid transparent;
+    border-top: 15px solid #00B9E6;
+    border-bottom: 15px solid transparent;
+    padding: 0;
+    margin: 0;
+}
+
+
+li.item.other div:after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    bottom: -26px;
+    height: 0px;
+    width: 0px;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #EEEEEE;
+    border-bottom: 15px solid transparent;
+    padding: 0;
+    margin: 0;
+}
+
+li.item span:nth-child(1) {
+    font-size:12px;
+}
+
+li.item span:nth-child(2) {
+    font-weight: 500;
+    font-size: 18px;
+    white-space: normal;
+    text-align: left;
+    white-space:pre-wrap;
+
+}
+
+
+.bar.item-input-inset .item-input-wrapper input {
+  width: 100% !important;
+}
+
+.bar-footer {
+  overflow: visible !important;
+}
+
+.bar-footer textarea {
+  resize: none;
+  height: 25px;
+}
+
+textarea, .item-input-wrapper {
+  background-color: #f4f4f4 !important;
+}
+
+.footer-btn-wrap {
+  position: relative;
+  height: 100%;
+  width: 50px;
+  top: 7px;
+}
+
+.footer-btn {
+  position: absolute !important;
+  bottom: 0;
+}
+
+.message-wrapper {
+  position: relative;
+}
+
+.message-wrapper:last-child {
+  margin-bottom: 10px;
+}
+
+button.ion-android-send {
+  padding-top: 2px;
+  box-shadow:none;
+}
+
+.item-avatar .avatar {
+    position: absolute;
+display: block;
+left: 0;
+padding: 0;
+text-align: center;
+line-height: 50px;
+height: 50px;
+top: 0;
+width: 50px;
+font-size: 40px;
+color: #FFFFFF;
+background-color: #D8D8D8;
+border-radius: 100%;
+bottom: 0;
+margin: auto 10px;
+text-transform: uppercase;
+}
+
+/*.msg-input {
+    position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height:auto;
+  min-height: 35px;
+  max-height: 70px;
+  display: block;
+  background-color: white;
+  border-top-width: 1px;
+  border-top-style: solid;
+    border-top-color: rgb(221, 221, 221);
+  z-index: 2;
+}*/
+
+/*.msg-send-bttn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  z-index: 3;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  color: #444;
+}*/
+
+ul .item {
+    padding: 3px 8px;
+
+}
+
+
+
+
+ion-header-bar > button {
+    box-shadow:none !important;
+    color:white !important;
+}
